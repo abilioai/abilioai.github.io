@@ -3,7 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abilio AI — Data Scientist</title>
+  <title>Abilio Fernandes — Data Scientist & ML Portfolio | Abilio AI</title>
+  <!-- SEO -->
+  <meta name="description" content="Abilio Fernandes — Cientista de Dados e fundador da Abilio AI. Projetos de Machine Learning, análise exploratória e modelos preditivos. Portfólio com projetos Kaggle: Titanic, House Prices e Credit Card Fraud Detection.">
+  <meta name="keywords" content="data science, machine learning, python, kaggle, random forest, ridge regression, fraud detection, abilio ai, porto alegre, cientista de dados">
+  <meta name="author" content="Abilio Fernandes">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://abilioai.com.br">
+
+  <!-- Open Graph (LinkedIn, WhatsApp, Facebook) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://abilioai.com.br">
+  <meta property="og:title" content="Abilio AI — Data Scientist & ML Portfolio">
+  <meta property="og:description" content="Projetos de Machine Learning e Data Science: Titanic (0.756 Kaggle), House Prices (0.249 Kaggle), Credit Card Fraud Detection (AUC 0.947).">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Abilio AI — Data Scientist & ML Portfolio">
+  <meta name="twitter:description" content="Projetos de Machine Learning: Titanic, House Prices, Fraud Detection.">
+
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Abilio Fernandes",
+    "url": "https://abilioai.com.br",
+    "jobTitle": "Data Scientist",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Abilio AI"
+    },
+    "sameAs": [
+      "https://www.kaggle.com/abilioai",
+      "https://github.com/abilioai",
+      "https://www.linkedin.com/in/abiliofernandes/"
+    ],
+    "email": "abilio@abilioai.com.br",
+    "description": "Cientista de Dados especializado em Machine Learning, análise exploratória e modelos preditivos."
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
   <style>
@@ -291,7 +332,7 @@
   <!-- STATS -->
   <div id="stats">
     <div class="stat">
-      <div class="stat-num">2</div>
+      <div class="stat-num">3</div>
       <div class="stat-label">Projetos publicados</div>
     </div>
     <div class="stat">
@@ -303,8 +344,8 @@
       <div class="stat-label">Score House Prices · Kaggle</div>
     </div>
     <div class="stat">
-      <div class="stat-num">Top 4k</div>
-      <div class="stat-label">Ranking House Prices</div>
+      <div class="stat-num">0.947</div>
+      <div class="stat-label">AUC-ROC · Fraud Detection</div>
     </div>
   </div>
 
@@ -356,15 +397,24 @@
           <a href="https://github.com/abilioai/house-price-ridge" target="_blank" class="project-link">GitHub</a>
         </div>
       </div>
-      <div class="project-card" style="opacity:0.5; pointer-events:none;">
+      <div class="project-card">
         <div class="project-emoji">💳</div>
+        <div class="score-badge">
+          <span>●</span> AUC-ROC 0.947 · F1 0.87 · Precision 93%
+        </div>
         <div class="project-title">Detecção de Fraude — Credit Card Fraud</div>
-        <p class="project-desc">Em breve. Classificação com dataset severamente desbalanceado — técnicas de reamostragem, otimização de precision/recall e modelos robustos a classes raras.</p>
+        <p class="project-desc">Classificação binária com severo desbalanceamento de classes (0.17% fraudes). Pipeline completo: PCA analysis, feature engineering (Time→Hour, Amount→log), comparação de estratégias (class_weight vs SMOTE) e decisão de threshold guiada por regra de negócio.</p>
         <div class="project-tags">
-          <span class="tag">Classificação</span>
-          <span class="tag">Dados Desbalanceados</span>
+          <span class="tag">Python</span>
+          <span class="tag">Scikit-learn</span>
+          <span class="tag">Random Forest</span>
           <span class="tag">SMOTE</span>
-          <span class="tag">Precision/Recall</span>
+          <span class="tag">AUC-ROC</span>
+          <span class="tag">Dados Desbalanceados</span>
+        </div>
+        <div class="project-links">
+          <a href="https://www.kaggle.com/abilioai" target="_blank" class="project-link primary">Ver no Kaggle</a>
+          <a href="https://github.com/abilioai/credit_card_fraud_detection" target="_blank" class="project-link">GitHub</a>
         </div>
       </div>
     </div>
@@ -391,6 +441,9 @@
           <span class="skill-chip">Feature Engineering</span>
           <span class="skill-chip">Transformações Log</span>
           <span class="skill-chip">Análise de Resíduos</span>
+          <span class="skill-chip">AUC-ROC</span>
+          <span class="skill-chip">SMOTE</span>
+          <span class="skill-chip">Dados Desbalanceados</span>
           <span class="skill-chip">Jupyter</span>
           <span class="skill-chip">Git</span>
         </div>
@@ -426,7 +479,7 @@
     <h2 class="section-title">Vamos conversar</h2>
     <div class="contact-box">
       <p>Disponível para projetos, oportunidades e colaborações em Data Science e IA.</p>
-      <a href="/cdn-cgi/l/email-protection#1a7b78737673755a7b78737673757b7334797577347868" class="contact-email"><span class="__cf_email__" data-cfemail="f19093989d989eb19093989d989e9098df929e9cdf9383">[email&#160;protected]</span></a>
+      <a href="mailto:abilio@abilioai.com.br" class="contact-email">abilio@abilioai.com.br</a>
       <div class="social-links">
         <a href="https://www.kaggle.com/abilioai" target="_blank" class="social-link">Kaggle</a>
         <a href="https://github.com/abilioai" target="_blank" class="social-link">GitHub</a>
